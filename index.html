@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Monobrent</title>
+</head>
+
+<body>
+    <header style="background: url(img/oil.png) no-repeat;">
+        <div class="container head">
+            <div class="headerTop">
+                <a class="logo" href="#">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <div class="personalRoom">
+                    <span>тел: +38(000) 123 4567</span>
+                    <button class="button">Личный кабинет</button>
+                </div>
+            </div>
+            <div class="headerText">
+                <div class="textBorder col-12 col-md-10 col-lg-5">
+                    <div class="textWrapper">
+                        <h1>топливные талоны <span>monobrent</span></h1>
+                        <p class="col-10">это ваша гарантия приобретения
+                            высококачественного горючего
+                            по фиксированной цене.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <section class="searchCity">
+        <form class="container">
+            <input class="col-10 input" type="search" placeholder="Поиск города">
+            <button class="button ">Поиск</button>
+        </form>
+    </section>
+    <iframe class="map">
+
+    </iframe>
+    <section class="partners">
+        <div class="partnersList container">
+            <div class="partner col-3 col-md-4">
+                <img src="img/ultra.png" alt="ultra">
+            </div>
+            <div class="partner col-3 col-md-4">
+                <img src="img/sunoil.png" alt="sunoil">
+            </div>
+            <div class="partner col-3 col-md-4">
+                <img src="img/mango.png" alt="mango">
+            </div>
+        </div>
+    </section>
+    <section class="container aboutUs">
+        <div class="aboutUsText col-12 col-md-6 col-lg-4">
+            <h2>топливные талоны <span>mono</span>brent</h2>
+            <p>удобный способ расчета за топливо по фиксированной цене.</p>
+        </div>
+        <div class="featuresList">
+        <div class="features">
+            <div class="feature col-10 col-md-6">
+                <img src="img/feature_icon.png" alt="icon">
+                <p>Покупая топливо по талонам, вы фиксируете цену топлива на момент покупки талона.</p>
+            </div>
+            <div class="feature col-10 col-md-6">
+                <img src="img/feature_icon.png" alt="icon">
+                <p>Отоваривая талон на топливо через какое-то время после его покупки, вы будете получать литры бензина по старой цене.</p>
+            </div>
+        </div>
+        <div class=" features">
+            <div class="feature col-10 col-md-6">
+                <img src="img/feature_icon.png" alt="icon">
+                <p>Избежание рисков,связанных с оборотом наличных.</p>
+            </div>
+            <div class="feature col-10 col-md-6">
+                <img src="img/feature_icon.png" alt="icon">
+                <p>Компания предоставляет 100% гарантию на каждую проданную топливную карту.
+                </p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="logIn">
+        <div class="container">
+            <h2>вход в личный кабинет </h2>
+            <form class="row">
+                <div class="enter col-12 row">
+                    <div class="col-12 col-md-5">
+                        <input type="text" class="col-12 input" placeholder="Код за ЭДРПОУ ">
+                        <div class="policy col-12">
+                            <span>Войдя я соглашаюсь с</span>
+                            <a href="#"> политикой конфендициальности.</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 ">
+                        <input type="text" class="col-12 input" placeholder="Пароль">
+                        <div class="password col-12">
+                            <a href="#">Забыли пароль?</a>
+                        </div>
+                    </div>
+                    <div class="col-4 col-md-2">
+                    <button class="button col-12">Вход</button>
+                </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="container">
+            <div class="contactsWrapper">
+        <div class="contacts col-10 col-lg-4">
+            <h3>Контакты</h3>
+            <div class="contact">
+                <span><i class="fas fa-mobile-alt"></i></span> <span>+38(000) 123 4567</span>
+            </div>
+            <div class="contact">
+                <span><i class="fas fa-envelope"></i></span> <span>Monobrent@info.com</span>
+            </div>
+        </div>
+        <div class="social col-10 col-lg-4">
+            <h3>Соцсети</h3>
+            <div class="socialIcons col-12 col-md-8 row">
+            <a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
+            <a href="#"><span><i class="fab fa-instagram"></i></span></a>
+            <a href="#"><span><i class="fab fa-telegram-plane"></i></span></a>
+        </div>
+        </div>
+        <div class="mailing col-10 col-lg-4">
+            <h3>Подписаться на рассылку</h3>
+            <form class="col-12 row">
+                <input type="email" class="footerInput col-12" placeholder="Email">
+                <button class="footerButton"></button>
+            </form>
+        </div>
+        </div>
+        <div class="copyright">
+            <div class="monobr">
+                <span class="textUppercase">Monobrent <i class="far fa-copyright"></i> 2019.</span><span>All rights reserved.</span>
+            </div>
+            <div class="unitSpace ">
+                <span>Разработка  и создание сайтов Unit Space. <i class="far fa-copyright"></i> </span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
